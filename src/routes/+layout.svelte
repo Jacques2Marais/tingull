@@ -1,10 +1,11 @@
 <script>
-	export const prerender = true
-	export const ssr = false
+  import '@skeletonlabs/skeleton/themes/theme-crimson.css';
+  import '@skeletonlabs/skeleton/styles/all.css';
+  import "../app.postcss";
 </script>
 
 <div class="app">
-	<main>
-		<slot />
-	</main>
+  <main>
+    <slot />
+  </main>
 </div>
